@@ -1,0 +1,118 @@
+/*headrer Container so we can set the background color (gradient) and  main height*/
+.header-main {
+	background-color:#292c2f;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
+	top:-100px;
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+/*headrer log and menu Container*/
+.header-main .header-sub {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*The header placeholder. this used to prevent the content page to jump up and to be fixed */
+.header-main-placeholder{
+	height: 80px;
+	display: none;
+}
+
+/* Logo  class*/
+
+.header-main .header-sub h1 {
+	float: left;
+	font: normal 28px  Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+/* Logo second word class*/
+.header-main .header-sub h1 span {
+	color: hsl(15, 59%, 58%);
+}
+
+/* The menu links */
+
+.header-main .header-sub a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-main .header-sub nav {
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-main .header-sub nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.header-main .header-sub nav a:hover{
+	opacity: 1;
+}
+
+.header-main .header-sub nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+.header-main .header-sub nav a.logout 
+{
+	color: hsl(15, 59%, 58%);
+}
+
+
+
+
+
+/* Making the header responsive  with any size*/
+
+@media all and (max-width: 600px) {
+
+	.header-main {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-main .header-sub h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-main .header-sub nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-main .header-sub nav a {
+		font-size: 13px;
+	}
+
+	body.main .header-main {
+		display: none;
+	}
+
+}
+@media only screen and (device-width: 280px) and (device-height: 653px){
+
+	.header-main {
+		padding: 20px 0;
+		height: 75px;
+		width: 300px;
+	
+	}     
+}
+

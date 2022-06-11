@@ -1,0 +1,204 @@
+/*this common html tags style*/
+*{
+    margin:0;
+     padding:0;
+}
+ img, img a{
+    outline:none;
+     border:none;
+}
+ body{
+     background: #f0f0f2;
+     color:#575757;
+     font:81.3% "montserrat";
+     margin:0;
+     padding:0;
+
+}
+ .clear:before, .clear:after{
+    content:"";
+     display:table;
+}
+ .clear:after{
+    clear:both;
+}
+ .clear{
+    zoom:1;
+    /* For IE 6/7 (trigger hasLayout) */
+}
+ header, section, footer, aside, nav, article{
+    display:block;
+}
+ .bodywidth{
+    width:960px;
+     margin:0 auto;
+     clear:both;
+}
+ h1, h2, h3, h4, h5, h6{
+    color:#2f2f2f;
+     font-family: merriweather;
+}
+ .bold{
+    font-weight:bold;
+}
+ .blue{
+    color:#4086c6;
+}
+
+/* Intro */
+/* Main Content */
+ #maincontent{
+     height: 80%;
+     padding:25px 0 0 0;
+     overflow:hidden;
+     min-height:400px;
+
+}
+ #aboutleft{
+    float:left;
+     width:540px;
+}
+ #aboutleft h3{
+    font-size:1.5em;
+     font-weight:bold;
+     margin:0 0 15px 0;
+     color:#335c67;
+     font-family: 'merriweather';
+}
+ #aboutleft h4{
+    font-size:1 em;
+     font-weight:bold;
+     margin:0 0 15px 0;
+}
+ #aboutleft p{
+    line-height:135%;
+     margin:0 0 15px 0;
+     font-family: 'montserrat';
+     color:#000000;
+}
+ .catdetails{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	border-left: 8px solid hsla(330, 1%, 72%, 0.498);
+	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+	border-radius: 12px;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+     border-radius: 12px;
+     min-height: 200px;
+     padding: 3px;
+     line-height:135%;
+     margin:0 0 20px 0;
+     font-family: 'montserrat';
+     color:#000000;
+}
+/* Logo second word class*/
+.catdetails:hover {
+	border-top-left-radius: 10px;
+     border-left: 8px solid hsla(25, 100%, 38%, 0.952);
+	border-bottom-left-radius: 10px;
+	animation-name: example;
+	animation-duration: 0.25s;
+	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+ #articlesright{
+    float:right;
+     width:380px;
+}
+ #articlesright article{
+    clear:both;
+     margin:0 0 20px 0;
+     overflow:hidden;
+}
+ .byline {
+     margin: -25px 20px 0 0px;
+     color: #335C67;
+}
+ .entry {
+     margin: 0;
+     padding: 17px 20px 5px 0px;
+}
+ #articlesright ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+ #articlesright li {
+     margin: 0;
+     padding: 0;
+     font-family: 'montserrat';
+}
+ #articlesright li ul {
+     margin-left: 20px;
+     padding: 0;
+}
+ #articlesright li li {
+     margin: 0 0 0 0;
+     margin: 0 0 0 0;
+     line-height: 35px;
+     border-bottom: 1px #000000 dotted;
+}
+ #articlesright h2 {
+     margin: 0px 0 0 20px;
+     height: 35px;
+     font-size: 18px;
+     color:#335c67;
+     font-family: 'merriweather';
+     background: url(../images/img04.png) no-repeat right 30%;
+     border-bottom: 2px #000000 dashed;
+}
+ #articlesright a {
+     text-decoration: none;
+     color:#000000;
+}
+ #articlesright a:hover {
+     text-decoration: none;
+     color:#540B0E;
+}
+/* Footer */
+ #footerwrap{
+    width:100%;
+     margin-top:20px ;
+     padding-top:5px;
+     padding-bottom:5px;
+     background-color:#292c2f;
+	box-shadow:0 1px 1px #ccc;
+}
+ #mainfooter{
+    text-shadow:0 0 1px #000;
+}
+.titlefooter{
+ color: #d37516f4;
+ font-weight: bolder;
+ font-size:1.4em;
+
+}
+.data{
+     margin-top: 10px;
+     font-size:1.1em;
+     color: white;
+     font-weight: 400;
+}
+ #mainfooter nav{
+    float:left;
+     font-size:1.3em;
+}
+ .asiakaspalvelu{
+     padding:10px;
+     color:#FFFFFF;
+     float:left;
+}
+ .asiakaspalvelu a {
+     text-decoration: none;
+     color: #FFFFFF;
+     float:left;
+}
+ #socialmedia{
+     padding:10px;
+     float:right;
+}
+ #socialmedia a{
+     padding-left:30px;
+     float:right;
+}
+ 
