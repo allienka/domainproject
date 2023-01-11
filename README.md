@@ -6,17 +6,17 @@
 - create a domain using SQL, PHP, HTML and CSS
 # Requirements:
 
-graphical manual:
-![graphical_manual](https://user-images.githubusercontent.com/105230372/205583114-acc20c59-5924-4a26-aee9-0c2dc2ece472.png)
+graphical manual:<br>
+![graphical_manual](https://user-images.githubusercontent.com/105230372/211758667-a7c4e427-dfc0-434a-9aac-8f6f463eaffb.png)
 
-article:
-![article](https://user-images.githubusercontent.com/105230372/205583149-9d8bb82b-c638-44e6-b2cb-fecd9b7a367b.png)
+article:<br>
+![article](https://user-images.githubusercontent.com/105230372/211758706-dafc53a3-16f4-46fb-bec8-19db6af01fd8.png)
 
-category:
-![category](https://user-images.githubusercontent.com/105230372/205583155-06507563-a6f5-4ce7-b192-7efe671e2b3a.png)
+category:<br>
+![category](https://user-images.githubusercontent.com/105230372/211758763-22deef2c-b480-48ba-8f14-f0add8f76f6c.png)
 
-front page: 
-![front_page](https://user-images.githubusercontent.com/105230372/205583158-ecb099ef-7a1a-4803-83d8-600a07d982fd.png)
+front page: <br>
+![front_page](https://user-images.githubusercontent.com/105230372/211758811-a5536994-d8ac-484e-a486-a06c75e3d069.png)
 
 
 
