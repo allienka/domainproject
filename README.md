@@ -1,6 +1,4 @@
 # domainproject ✨
-```css
-   // background-color: white;
 
 
 
