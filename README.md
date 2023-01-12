@@ -65,3 +65,13 @@ front page: <br>
 
 ----------------
 
+<b>The domain look:</b><br> 
+
+<img width="1273" alt="Screenshot 2023-01-12 at 16 28 19" src="https://user-images.githubusercontent.com/105230372/212093439-c57b97f4-024e-4169-bfa2-33d12bc7422d.png">
+
+<img width="1315" alt="Screenshot 2023-01-12 at 16 28 37" src="https://user-images.githubusercontent.com/105230372/212093409-65a8bef1-b02e-4cbf-bbee-9cf67c1755c0.png">
+
+
+
+
+
